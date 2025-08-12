@@ -1,0 +1,13 @@
+limit or optimise the number of dice rolls, so that the bot isnt stun locked 
+
+modify the roll command so that you can choose to see each individual roll or if you want to just see the end result
+
+make an help command
+
+make an update annoucement with the tittle
+
+make a suggestion/bug report channel
+
+create a file with aux functions to manage the DataBase to import to the cogs
+
+complete this list

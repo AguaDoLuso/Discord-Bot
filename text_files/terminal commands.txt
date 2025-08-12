@@ -1,0 +1,16 @@
+#(.venv)
+source .venv/bin/activate   #activates virtual interperter, should appear (.venv)
+ctrl + shift + p -> Python: Select interperter   
+select the (.venv) one      #this serves to activate the imported libraries
+deactivate        # this deactives the (.venv)
+
+#save on github 101
+git status    # verifies if there was any change to the files
+git add .
+git commit -m "Title"   # i can give a tittle to an update
+git push origin main    # push main.py update
+git push                # push everything update
+
+python3 ./main.py       # activate the Bot
+
+pip list    #brings the requirements pip list

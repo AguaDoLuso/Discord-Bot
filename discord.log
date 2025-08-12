@@ -1,0 +1,379 @@
+[2025-08-02 15:44:54] [INFO    ] discord.client: logging in using static token
+[2025-08-02 15:44:55] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 7b7c3bb6589cbcacd298c1a30c6b7f32).
+[2025-08-02 15:45:13] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:14] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:14] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:16] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:16] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:16] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:16] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:16] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:16] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:16] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:19] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:19] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:19] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:19] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:19] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:20] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:39] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:39] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:40] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:41] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:41] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:41] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:42] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:42] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:43] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:43] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:44] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:44] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:44] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:44] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:44] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:45] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:45] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:45] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:46] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:46] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:47] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:47] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:47] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:47] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:47] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:50] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:50] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1104289202553749537/messages responded with 429. Retrying in 0.59 seconds.
+[2025-08-02 15:45:50] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:50] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:50] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:51] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
+[2025-08-02 15:45:51] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/nandre/dev/discord-bot/.venv/lib/python3.12/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/nandre/dev/discord-bot/cogs/bot_events.py", line 140, in on_message
+    await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+          ^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'bot'
