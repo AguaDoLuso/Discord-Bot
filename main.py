@@ -3,7 +3,6 @@ from discord.ext import commands
 from dotenv import load_dotenv
 import os
 import logging
-import webserver
 
 load_dotenv()   #loads file .env content
 token = os.getenv('DISCORD_TOKEN')  # gets the token from the .env file
@@ -26,5 +25,4 @@ async def on_ready():   # async is important for discord bots, so it doesnt get 
     await bot.load_extension("cogs.bot_commands")
     await bot.load_extension("cogs.bot_events")
     
-webserver.keep_alive()  # starts the webserver to keep the bot alive
 bot.run(token, log_handler=handler, log_level=logging.INFO) # starts the bot and inicializes the log file
