@@ -1,0 +1,21 @@
+# Ignore everything
+*
+
+# Keep these files/folders
+!.gitignore
+!cogs/
+!text_files/cursed_words.txt
+!main.py
+!README.md
+!requirements.txt
+!webserver.py
+
+# Ignore __pycache__ folders
+__pycache__/
+cogs/__pycache__/
+
+# Ignore development stuff
+*.pyc
+.env
+discord.log
+.venv/
