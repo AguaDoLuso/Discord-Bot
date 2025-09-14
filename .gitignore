@@ -4,6 +4,8 @@
 # Keep these files/folders
 !.gitignore
 !cogs/
+!cogs/**
+!text_files/
 !text_files/cursed_words.txt
 !main.py
 !README.md
