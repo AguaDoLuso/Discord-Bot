@@ -130,7 +130,7 @@ class BotEvents(commands.Cog):     # contains an optimized HashTable that initia
                 if nSlurs >= 10:
                     await timeout_member(message.guild.get_member(message.author.id), 69)    # punish user by 69 sec (nice)
                     await message.channel.send("BEHAVE KITTEN!")
-        await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
+        #await message.bot.process_commands(message)  # this allows the bot to process commands after handling the message
 
 
     @commands.Cog.listener()
