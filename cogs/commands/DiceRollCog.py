@@ -134,8 +134,8 @@ def compartmentalization(str):
     for i in range(str_splited.count('')):  # Removes all ''
         str_splited.remove('')
             
-    print(str_splited)
-    print(priorities)  
+    #print(str_splited)
+    #print(priorities)  
         
     if(len(str_splited) != len(priorities)):
         return None
@@ -227,13 +227,11 @@ async def expr_manager(ctx, str_splited, final_msg):
     while idx < len(str_splited):
         eq = str_splited[idx]
         
-        print("------------------------------")
-        print("MAIN STR: ", str)
-        print("str: ", eq.str)
-        print("Prio: ", eq.priority)
-        #print(len(str_splited))
-        #print(idx)
-        
+        #print("------------------------------")
+        #print("MAIN STR: ", str)
+        #print("str: ", eq.str)
+        #print("Prio: ", eq.priority)
+   
         if (expr.priority > eq.priority):
             print("--BREAK--")
             break
@@ -250,8 +248,7 @@ async def expr_manager(ctx, str_splited, final_msg):
             for otherOp in otherOperators:
                 Operators.append(otherOp)
             str = eq.str
-            
-        
+              
         elif(eq.priority - expr.priority == 1):
             newNum = await expr_manager(ctx, str_splited[idx:], final_msg)
             if (newNum == None):    # Verification
@@ -263,12 +260,10 @@ async def expr_manager(ctx, str_splited, final_msg):
             for i, x in enumerate(str_splited[idx+1:]):
                 if (expr.priority == x.priority):
                     idx = i
-                
-            print("###############")
         idx += 1
 
-    print(Numbers)
-    print(Operators)
+    #print(Numbers)
+    #print(Operators)
         
     if ((len(Numbers) != len(Operators)+1) or inverse):  # Verification
         return None
@@ -278,7 +273,6 @@ async def expr_manager(ctx, str_splited, final_msg):
         return None
     
     return total
-    
     
 # -------------------------------------------- Class ----------------------------------------------------------     
 
@@ -297,13 +291,12 @@ class DiceRollCog(commands.Cog):
         
         input_str = input_str.replace(' ', '')  # Replaces all spaces
         input_str = input_str.casefold()        # Lowers all CapSized letters (usefull for 'D')
-        
-        
+          
         equations = compartmentalization(input_str)
         if (equations != None):
             final_msg = []
             total = await expr_manager(ctx, equations, final_msg)
-            print(total)
+            #print(total)
             if(total != None):
                 if (len(final_msg) != 1):
                     if (len(final_msg) > 10):
@@ -314,7 +307,6 @@ class DiceRollCog(commands.Cog):
             
         await ctx.send(f"{ctx.author.mention} - Didn't understood what you meant, say something more like this \n`!r 2d20 + (4.5 * 7)`")
         
-      
 # ------------------------------------------- Setup ---------------------------------------------------
            
 async def setup(bot):
