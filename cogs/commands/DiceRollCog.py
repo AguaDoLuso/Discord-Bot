@@ -25,6 +25,9 @@ async def roll_random(ctx, ndice, sides, final_msg):
         if sides < 2:
             await ctx.send(f"{ctx.author.mention} - I only have stuff with 2 or more sides!")
             return None
+        if ((ndice % 1 != 0) or (sides % 1 != 0)):
+            await ctx.send(f"{ctx.author.mention} - HOW THE HELL! Am I supposed to that??!!")
+            return None
 
         final_result = 0
         if ndice > 10000:   # more then 10.000 dice, it will use the normal distribution to calculate faster
